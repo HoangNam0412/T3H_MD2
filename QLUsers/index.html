@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quản Lý Users</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Quản Lý Users</h1>
+        <div id="controls">
+            <button onclick="login()">Đăng Nhập</button>
+            <button onclick="register()">Đăng Ký</button>
+            <button onclick="viewUsers()">Xem Danh Sách Users</button>
+            <button onclick="viewPosts()">Xem Danh Sách Posts</button>
+            <button onclick="viewPostDetails()">Xem Chi Tiết 1 Post</button>
+            <button onclick="searchPostsByUser()">Tìm Kiếm Posts Theo User</button>
+        </div>
+        <div id="output"></div>
+    </div>
+    <script src="users.js"></script>
+    <script src="posts.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
